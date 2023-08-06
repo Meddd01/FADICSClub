@@ -233,7 +233,8 @@ nav img {
   color: #4d4fd4;
   font-size: 2.2em;
   font-weight: 800;
-  margin-bottom: 30px;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .content {
@@ -257,6 +258,10 @@ nav img {
 .card-text {
   padding: 20px;
   font-size: large;
+}
+
+.card-inner h2 {
+  color: #4d4fd4;
 }
 
 .card {
