@@ -78,7 +78,7 @@ a {
   justify-content: center;
   gap: 40px;
 }
-
+/* 
 .my-svg-background {
   background-color: hsla(239, 32%, 28%, 1);
   background-image: radial-gradient(
@@ -88,6 +88,10 @@ a {
     ),
     radial-gradient(at 0% 0%, hsla(231, 100%, 55%, 1) 0px, transparent 50%);
   background-size: cover;
+} */
+
+.main {
+  background: url(assets/background.svg);
 }
 
 .main h2 {
@@ -105,7 +109,7 @@ a {
 
 .main h3 {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 700;
   letter-spacing: 1px;
   margin-top: 10px;
@@ -149,6 +153,24 @@ a {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 1550px) {
+  .image img {
+    height: 350px;
+    max-width: 500px;
+  }
+  .main h2 span {
+    font-size: 2.2em;
+    font-weight: 700;
+  }
+  .main h3 {
+    font-size: 1.5em;
+  }
+  .card-text {
+    padding: 10px;
+    font-size: medium;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .image img {
     height: 250px;
@@ -156,7 +178,7 @@ a {
   }
 
   .main h2 span {
-    font-size: 2.2em;
+    font-size: 2.4em;
     font-weight: 700;
   }
   .main h3 {
@@ -298,7 +320,7 @@ a {
 .circle {
   width: 100px;
   height: 100px;
-  background: radial-gradient(#3c3d8d, #4d4fd4);
+  background: radial-gradient(hsla(231, 100%, 55%, 1), #1a3cff);
   border-radius: 50%;
   position: absolute;
   animation: move-up6 2s ease-in infinite alternate-reverse;
@@ -313,24 +335,6 @@ a {
   bottom: -25px;
   right: -25px;
   animation-name: move-down1;
-}
-
-@media screen and (max-width: 1550px) {
-  .image img {
-    height: 350px;
-    max-width: 500px;
-  }
-  .main h2 span {
-    font-size: 2.2em;
-    font-weight: 700;
-  }
-  .main h3 {
-    font-size: 1.5em;
-  }
-  .card-text {
-    padding: 10px;
-    font-size: medium;
-  }
 }
 
 @media screen and (max-width: 1380px) {
