@@ -7,6 +7,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   list-style: none;
+  text-decoration: none;
 }
 
 .responsive-nav {
@@ -21,7 +22,7 @@ nav {
   background: inherit;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(5px);
-  padding: 20px;
+  padding: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,6 +32,7 @@ nav {
 nav .headers {
   display: flex;
   gap: 40px;
+  color: #354a9b;
 }
 
 nav img {
@@ -38,8 +40,12 @@ nav img {
   width: 80px;
 }
 
-.headers li:hover {
-  border-bottom: 1px solid white;
+a {
+  color: #354a9b;
+}
+
+#about-us {
+  min-height: 80vh;
 }
 
 @media screen and (max-width: 895px) {
