@@ -91,7 +91,8 @@ a {
 } */
 
 .main {
-  background: url(assets/background.svg);
+  background: url(assets/background.svg) no-repeat;
+  background-size: cover;
 }
 
 .main h2 {
