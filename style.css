@@ -237,7 +237,7 @@ a {
 .circle {
   width: 100px;
   height: 100px;
-  background: radial-gradient(#3c3d8d, #4d4fd4);
+  background: radial-gradient(#5659ff, #383bff);
   border-radius: 50%;
   position: absolute;
   animation: move-up6 2s ease-in infinite alternate-reverse;
@@ -281,7 +281,7 @@ a {
 }
 
 #team .title {
-  color: #fff;
+  color: #4895ef;
 }
 
 #team {
