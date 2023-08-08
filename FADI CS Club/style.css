@@ -338,7 +338,7 @@ a {
 #team {
   min-height: 40vh;
   margin-top: 60px;
-  background: url(assets/background2.svg);
+  background: url(assets/background.svg);
 }
 
 #team h2 {
@@ -356,7 +356,7 @@ a {
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: #5a6bb8;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
   min-height: 14em;
@@ -364,6 +364,8 @@ a {
   overflow: hidden;
   margin: 20px;
   transition: 0.7s ease;
+  backdrop-filter: blur(5px);
+  opacity: 0.8;
 }
 
 .project-card:hover {
@@ -465,4 +467,57 @@ a {
   .project-card {
     width: 60%;
   }
+}
+
+.event {
+  background-color: #fff;
+}
+
+.card-project {
+  margin-top: 30px;
+}
+
+.card-project {
+  background-color: #fff;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.card-project:hover{
+  transform: scale(1.1);
+}
+
+.card-project:hover{
+  opacity: 0.9;
+}
+
+.project-card img{
+  width: 100%;
+}
+
+.event-info {
+  padding: 1em;
+}
+
+.event-category {
+  font-size: 0.8em;
+  color: #000;
+}
+
+.event-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.more-details {
+  text-decoration: none;
+  color: #4d4fd4;
 }
