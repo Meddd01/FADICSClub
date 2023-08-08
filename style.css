@@ -254,12 +254,6 @@ a {
   animation-name: move-down1;
 }
 
-@media screen and (max-width: 1380px) {
-  .content {
-    width: 70%;
-  }
-}
-
 @media screen and (max-width: 1100px) {
   .content {
     width: 50%;
@@ -439,6 +433,15 @@ a {
   color: #000;
 }
 
+@media screen and (max-width: 1380px) {
+  .content {
+    width: 70%;
+  }
+  .project-card {
+    width: 22%;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .image img {
     height: 250px;
@@ -457,6 +460,15 @@ a {
   }
   .card-project {
     width: 35%;
+  }
+  .project-card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project-card {
+    width: 28%;
   }
 }
 
@@ -506,6 +518,9 @@ a {
 @media screen and (max-width: 850px) {
   .card-project {
     width: 45%;
+  }
+  .project-card {
+    width: 40%;
   }
 }
 
@@ -570,6 +585,9 @@ a {
   }
   .card-project a {
     font-size: small;
+  }
+  .project-card {
+    width: 50%;
   }
 }
 
